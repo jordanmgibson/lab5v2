@@ -27,3 +27,4 @@ input[type=submit] {
     border-radius: 10px;
     cursor: pointer;
 }
+label:after { content: "\a" }
