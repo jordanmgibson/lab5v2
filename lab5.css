@@ -1,0 +1,23 @@
+form {
+    margin: 15px;
+    padding: 15px;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    break-after: avoid;
+}
+p, label {
+    color: navy;
+}
+input[type=text], input[type=number], select {
+    padding: 15px 20px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 12px;
+    width: 100%;
+    cursor: pointer;
+}
+input[type=submit] {
+    background-color: black;
+}
