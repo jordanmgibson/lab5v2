@@ -34,4 +34,6 @@ input[type=submit] {
 }
 .break, input[type=date], input[type=checkbox], input[type=radio], .center {
     margin: auto;
+    text-align: center;
+    vertical-align: middle;
 }
