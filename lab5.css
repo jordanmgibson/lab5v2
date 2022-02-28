@@ -11,7 +11,7 @@ p, label {
     color: navy;
 }
 input[type=text], input[type=number], #state-22 {
-    padding: 15px 20px;
+    padding: 10px 13px;
     margin: 10px;
     border: 1px solid black;
     border-radius: 12px;
@@ -19,7 +19,7 @@ input[type=text], input[type=number], #state-22 {
     box-sizing: border-box;
 }
 input[type=submit] {
-    width: calc(100%-20px);
+    width: 100%;
     background-color: black;
     color: white;
     padding: 145x 20px;
