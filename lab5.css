@@ -10,7 +10,7 @@ p {
 p, label {
     color: navy;
 }
-input[type=text], input[type=number], #state-22 {
+input[type=text], input[type=number], input[type=date], #state-22 {
     padding: 10px 13px;
     margin: 10px;
     border: 1px solid black;
