@@ -5,47 +5,98 @@
 	</head>
 	<body>
 		<form action="https://ceclnx01.cec.miamioh.edu/~johnsok9/cse383/lab5s22.php" method="post">
-		<label for="txtName">Name:</label>
-		<input type="text" name="txtName"id="txtName">
-		<label for="txtAddress">Address:</label>
-		<input type="text" name="txtName" id="txtAddress">
-		<label for="txtName">Address2:</label>
-                <input type="text" name="txtAddress2" id="txtAddress2">
-		<label for="txtCity">City:</label>
-                <input type="text" name="txtCity" id="txtCity">
-		<label for="txtState">State:</label>
-                <input type="text" name="txtState" id="txtState">
-		<label for="txtZip">Zip:</label>
-                <input type="text" name="txtZip" id="txtZip">
+		<label for="name-s22">Name:</label>
+		<input type="text" name="name-s22"id="name-s22">
+		<label for="address1-s22">Address:</label>
+		<input type="text" name="address1-s22" id="address1-s22">
+		<label for="address2-s22">Address2:</label>
+        <input type="text" name="address2-s22" id="address2-s22">
+		<label for="city-s22">City:</label>
+		<label for="state-s22">State:</label>
+        <select name="state-s22" id="state-22">
+			<option value="AL">Alabama</option>
+			<option value="AK">Alaska</option>
+			<option value="AZ">Arizona</option>
+			<option value="AR">Arkansas</option>
+			<option value="CA">California</option>
+			<option value="CO">Colorado</option>
+			<option value="CT">Connecticut</option>
+			<option value="DE">Delaware</option>
+			<option value="DC">District Of Columbia</option>
+			<option value="FL">Florida</option>
+			<option value="GA">Georgia</option>
+			<option value="HI">Hawaii</option>
+			<option value="ID">Idaho</option>
+			<option value="IL">Illinois</option>
+			<option value="IN">Indiana</option>
+			<option value="IA">Iowa</option>
+			<option value="KS">Kansas</option>
+			<option value="KY">Kentucky</option>
+			<option value="LA">Louisiana</option>
+			<option value="ME">Maine</option>
+			<option value="MD">Maryland</option>
+			<option value="MA">Massachusetts</option>
+			<option value="MI">Michigan</option>
+			<option value="MN">Minnesota</option>
+			<option value="MS">Mississippi</option>
+			<option value="MO">Missouri</option>
+			<option value="MT">Montana</option>
+			<option value="NE">Nebraska</option>
+			<option value="NV">Nevada</option>
+			<option value="NH">New Hampshire</option>
+			<option value="NJ">New Jersey</option>
+			<option value="NM">New Mexico</option>
+			<option value="NY">New York</option>
+			<option value="NC">North Carolina</option>
+			<option value="ND">North Dakota</option>
+			<option value="OH">Ohio</option>
+			<option value="OK">Oklahoma</option>
+			<option value="OR">Oregon</option>
+			<option value="PA">Pennsylvania</option>
+			<option value="RI">Rhode Island</option>
+			<option value="SC">South Carolina</option>
+			<option value="SD">South Dakota</option>
+			<option value="TN">Tennessee</option>
+			<option value="TX">Texas</option>
+			<option value="UT">Utah</option>
+			<option value="VT">Vermont</option>
+			<option value="VA">Virginia</option>
+			<option value="WA">Washington</option>
+			<option value="WV">West Virginia</option>
+			<option value="WI">Wisconsin</option>
+			<option value="WY">Wyoming</option>
+		</select>
+		<label for="zipcode-s22">Zip:</label>
+        <input type="number" name="zipcode-s22" id="zipcode-s22">
 		<p>Class Level:</p>
-		<label for="rdo1">1</label>
-		<input type="radio" name="rdo1" id="rdo1">
-		<label for="rdo2">2</label>
-                <input type="radio" name="rdo2" id="rdo2">
-		<label for="rdo3">3</label>
-                <input type="radio" name="rdo3" id="rdo3">
-		<label for="rdo4">4</label>
-                <input type="radio" name="rdo4" id="rdo4">
-		<label for="rdo5">5</label>
-                <input type="radio" name="rdo5" id="rdo5">
-		<label for="dateBox">Date:</label>
-		<input type="date" name="dateBox" id="dateBox">
+		<label for="1">1</label>
+		<input type="radio" name="classLevel-s22" id="1" value="1">
+		<label for="2">2</label>
+        <input type="radio" name="classLevel-s22" id="2" value="2">
+		<label for="3">3</label>
+        <input type="radio" name="classLevel-s22" id="3" value="3">
+		<label for="4">4</label>
+        <input type="radio" name="classLevel-s22" id="4" value="4">
+		<label for="5">5</label>
+        <input type="radio" name="classLevel-s225" id="5" value="5">
+		<label for="date-s22">Date:</label>
+		<input type="date" name="date-s22" id="date-s22">
 		<p>Interests:</p>
 		<input type="checkbox" name="chkSports" id="chkSports">
 		<label for="chkSports">Sports</label>
 		<input type="checkbox" name="chkGames" id="chkGames">
-                <label for="chkGames">Games</label>
+        <label for="chkGames">Games</label>
 		<input type="checkbox" name="chkReading" id="chkReading">
-                <label for="chkReading">Reading</label>
+        <label for="chkReading">Reading</label>
 		<input type="checkbox" name="chkCoding" id="chkCoding">
-                <label for="chkCoding">Coding</label>
+        <label for="chkCoding">Coding</label>
 		<input type="checkbox" name="chkFriends" id="chkFriends">
-                <label for="chkFriends">Friends</label>
+        <label for="chkFriends">Friends</label>
 		<input type="checkbox" name="chkCars" id="chkCars">
                 <label for="chkCars">Cars</label>
 		<input type="checkbox" name="chkTravel" id="chkTravel">
                 <label for="chkTravel">Travel</label>
-		<input type="submit" value="Submit" name="submit_button">
+		<input type="submit" value="Submit" name="submit_button" id="submit_button">
 		</form>
 	</body>
 </html>
